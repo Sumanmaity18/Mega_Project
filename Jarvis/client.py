@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyBf3vVZqN62LTr-TTviv6iQGlqHf9rhcaw")
+genai.configure(api_key="your api key")
 
 model = genai.GenerativeModel("gemini-pro")
 response = model.generate_content("Say something funny about AI.")
